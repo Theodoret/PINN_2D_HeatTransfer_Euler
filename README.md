@@ -1,6 +1,7 @@
 # PINN_2D_HeatTransfer_Euler
-About Partial Differential Equations (PDEs) of 2D Heat Transfer is solved by Physic-Informed Neural Network (PINN), while time is discretized by Euler's Method
 
-Has been presented in [ICTS 2023](https://elib.its.ac.id/conf/icts/public/).
+A MATLAB (R2021b) program for Physics-Informed Neural Networks (PINNs) in a heat transfer case on a two-dimensional square field. In this program, PINNs were used to solve space discretization, while Euler's implicit method was used to integrate the time. Later on, the accuracy is compared with the Finite Difference Method, i.e., a common numerical method to solve space discritization, and the exact solution [1].
 
-[Full Paper](https://doi.org/10.1109/ICTS58770.2023.10330864)
+More details can be found in [The Full Paper](https://doi.org/10.1109/ICTS58770.2023.10330864).
+
+[1] K. A. Hoffmann and S. T. Chiang, Computational Fluid Dynamics, 4th ed., vol. 1, Engineering Education System: Kansas,2000, pp. 96-97.
